@@ -4,11 +4,11 @@ public class Cars {
     private String name;
     private int year;
 
-    public String getName() {
+    public String getName() { // getter la de lay gia tri ra
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) { // setter la de gan gia tri
         this.name = name;
     }
 

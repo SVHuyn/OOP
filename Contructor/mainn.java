@@ -1,8 +1,7 @@
 package Contructor;
 
-import AccessModifier.Gun;
+    public class mainn {
 
-public class mainn {
     public static void main(String[] args) {
 
         // là Contructor: hàm tạo
@@ -12,8 +11,6 @@ public class mainn {
         cars.setYear(1994);
 
         System.out.println("Check obj: " + cars.getName() + ", Year: " + cars.getYear());
-
-        Gun newG = new Gun();
 
     }
 }

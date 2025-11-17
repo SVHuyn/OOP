@@ -2,18 +2,23 @@ package Extend;
 
 import AccessModifier.Gun;
 
-public class mainnn extends Gun {
-
-    private void test(){
-        Gun g1 = new Gun();
-        g1.name = "10";
-
-        // kế thừa và chỉnh sửa trực tiếp không cần khai báo 'g1'
-        quantity = 100; // protected
+class Vehicl{
+    protected String brand = "Ford";        // Vehicle attribute
+    public void honk() {                    // Vehicle method
+        System.out.println("Tuut, tuut!");
     }
+}
+
+public class mainnn extends Vehicl {
+
     public static void main(String[] args) {
 
+        mainnn Car = new mainnn();
 
+        Car.honk();
 
+        String str = "fsdhfu435hsdfu3454hsdfuh3453sdhf";
+        String onlyLetters = str.replaceAll("[0-9]", "");
+        System.out.println(onlyLetters);
     }
 }
